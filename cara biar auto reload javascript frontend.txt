@@ -1,0 +1,3 @@
+<script type="text/javascript">
+window.setTimeout(function(){ document.location.reload(true); }, 15000);
+</script>

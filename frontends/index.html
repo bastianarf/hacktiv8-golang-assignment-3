@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/styles.css"/>
+        <title>Water and Wind - Bastian Arfianto</title>
+    </head>
+    <body>
+        <br>
+        <br>
+    <div class="container">
+        <div class="text-center">
+            <h1 class="text-center title">Water and Wind</h1>
+            <h3 class="text-center title">Indicator</h3>
+        </div>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td width="20px">:</td>
+                <td>Bastian Arfianto</td>
+            </tr>
+            <tr>
+                <td>No. Peserta</td>
+                <td width="20px">:</td>
+                <td>149368582101-725</td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td width="20px">:</td>
+                <td>Scalable Web Service with Golang</td>
+            </tr>
+            <tr>
+                <td>Batch</td>
+                <td width="20px">:</td>
+                <td>7</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Water</h2>
+                    <h5 class="card-title text-center"><i> (Air) </i></h5><br>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" style="max-height: 8rem; object-fit: scale-down;" src="assets/svg/water.svg">
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item {{ .waterClass }}">Ketinggian: {{ .water }} meter(s)</li>
+                    <li class="list-group-item {{ .waterClass }}">Status: {{ .waterStatus }}</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Wind</h2>
+                    <h5 class="card-title text-center"><i> (Angin) </i></h5><br>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" style="max-height: 8rem; object-fit: scale-down;" src="assets/svg/wind.svg">
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item {{ .windClass }}">Kecepatan: {{ .wind }} m/s</li>
+                    <li class="list-group-item {{ .windClass }}">Status: {{ .windStatus }}</li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.setTimeout(function(){ document.location.reload(true); }, 15000)</script>
+        <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
