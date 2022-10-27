@@ -1,6 +1,4 @@
-# hacktiv8-golang-assignment-3
-
-Assignment 3 - Scalable Web Service with Golang - Bastian Arfianto
+# Assignment 3 - Scalable Web Service with Golang - Bastian Arfianto
 
 <div align="center">
 Assignment 3 Auto Reload Data Project (Sesi 11) <br>
